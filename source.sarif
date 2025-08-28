@@ -1,0 +1,74 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/main/sarif-2.1/schema/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "invocations": [
+        {
+          "arguments": [
+            "/Users/assafa/.jfrog/dependencies/analyzerManager/iac_scanner/tf_scanner",
+            "scan",
+            "/var/folders/xv/th4cksxn7jv9wjrdnn1h4tj00000gq/T/jfrog.cli.temp.-1756380816-127960313/IaC_1756380816_2/config.yaml"
+          ],
+          "executionSuccessful": true,
+          "workingDirectory": {
+            "index": 0,
+            "uri": "file:///Users/assafa/Pictures"
+          }
+        }
+      ],
+      "language": "en-US",
+      "newlineSequences": [
+        "\r\n",
+        "\n"
+      ],
+      "tool": {
+        "driver": {
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "informationUri": "https://docs.jfrog-applications.jfrog.io/jfrog-security-features/infrastructure-as-code-iac",
+          "language": "en-US",
+          "name": "JFrog Terraform scanner",
+          "version": "1.23.3"
+        }
+      }
+    },
+    {
+      "invocations": [
+        {
+          "arguments": [
+            "/Users/assafa/.jfrog/dependencies/analyzerManager/zd_scanner/scanner",
+            "scan",
+            "/var/folders/xv/th4cksxn7jv9wjrdnn1h4tj00000gq/T/jfrog.cli.temp.-1756380816-127960313/Sast_1756380816_3/results.sarif",
+            "/var/folders/xv/th4cksxn7jv9wjrdnn1h4tj00000gq/T/jfrog.cli.temp.-1756380816-127960313/Sast_1756380816_3/config.yaml"
+          ],
+          "executionSuccessful": true,
+          "workingDirectory": {
+            "index": 0,
+            "uri": "file:///Users/assafa/Pictures"
+          }
+        }
+      ],
+      "language": "en-US",
+      "newlineSequences": [
+        "\r\n",
+        "\n"
+      ],
+      "tool": {
+        "driver": {
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "informationUri": "https://docs.jfrog-applications.jfrog.io/jfrog-security-features/sast",
+          "language": "en-US",
+          "name": "🐸 JFrog SAST",
+          "version": "1.23.3"
+        }
+      }
+    }
+  ],
+  "properties": {}
+}
