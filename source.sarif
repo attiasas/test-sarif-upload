@@ -3,14 +3,20 @@
   "version": "2.1.0",
   "runs": [
     {
+      "addresses": [],
+      "graphs": [],
       "invocations": [
         {
           "arguments": [
             "/Users/assafa/.jfrog/dependencies/analyzerManager/iac_scanner/tf_scanner",
             "scan",
-            "/var/folders/xv/th4cksxn7jv9wjrdnn1h4tj00000gq/T/jfrog.cli.temp.-1756380816-127960313/IaC_1756380816_2/config.yaml"
+            "/var/folders/xv/th4cksxn7jv9wjrdnn1h4tj00000gq/T/jfrog.cli.temp.-1756384982-1445597402/IaC_1756384982_2/config.yaml"
           ],
           "executionSuccessful": true,
+          "notificationConfigurationOverrides": [],
+          "ruleConfigurationOverrides": [],
+          "toolConfigurationNotifications": [],
+          "toolExecutionNotifications": [],
           "workingDirectory": {
             "index": 0,
             "uri": "file:///Users/assafa/Pictures"
@@ -18,10 +24,17 @@
         }
       ],
       "language": "en-US",
+      "logicalLocations": [],
       "newlineSequences": [
         "\r\n",
         "\n"
       ],
+      "policies": [],
+      "redactionTokens": [],
+      "results": [],
+      "runAggregates": [],
+      "taxonomies": [],
+      "threadFlowLocations": [],
       "tool": {
         "driver": {
           "contents": [
@@ -29,22 +42,39 @@
             "nonLocalizedData"
           ],
           "informationUri": "https://docs.jfrog-applications.jfrog.io/jfrog-security-features/infrastructure-as-code-iac",
+          "isComprehensive": false,
           "language": "en-US",
+          "locations": [],
           "name": "JFrog Terraform scanner",
+          "notifications": [],
+          "rules": [],
+          "supportedTaxonomies": [],
+          "taxa": [],
           "version": "1.23.3"
-        }
-      }
+        },
+        "extensions": []
+      },
+      "translations": [],
+      "versionControlProvenance": [],
+      "webRequests": [],
+      "webResponses": []
     },
     {
+      "addresses": [],
+      "graphs": [],
       "invocations": [
         {
           "arguments": [
             "/Users/assafa/.jfrog/dependencies/analyzerManager/zd_scanner/scanner",
             "scan",
-            "/var/folders/xv/th4cksxn7jv9wjrdnn1h4tj00000gq/T/jfrog.cli.temp.-1756380816-127960313/Sast_1756380816_3/results.sarif",
-            "/var/folders/xv/th4cksxn7jv9wjrdnn1h4tj00000gq/T/jfrog.cli.temp.-1756380816-127960313/Sast_1756380816_3/config.yaml"
+            "/var/folders/xv/th4cksxn7jv9wjrdnn1h4tj00000gq/T/jfrog.cli.temp.-1756384982-1445597402/Sast_1756384982_3/results.sarif",
+            "/var/folders/xv/th4cksxn7jv9wjrdnn1h4tj00000gq/T/jfrog.cli.temp.-1756384982-1445597402/Sast_1756384982_3/config.yaml"
           ],
           "executionSuccessful": true,
+          "notificationConfigurationOverrides": [],
+          "ruleConfigurationOverrides": [],
+          "toolConfigurationNotifications": [],
+          "toolExecutionNotifications": [],
           "workingDirectory": {
             "index": 0,
             "uri": "file:///Users/assafa/Pictures"
@@ -52,10 +82,17 @@
         }
       ],
       "language": "en-US",
+      "logicalLocations": [],
       "newlineSequences": [
         "\r\n",
         "\n"
       ],
+      "policies": [],
+      "redactionTokens": [],
+      "results": [],
+      "runAggregates": [],
+      "taxonomies": [],
+      "threadFlowLocations": [],
       "tool": {
         "driver": {
           "contents": [
@@ -63,11 +100,22 @@
             "nonLocalizedData"
           ],
           "informationUri": "https://docs.jfrog-applications.jfrog.io/jfrog-security-features/sast",
+          "isComprehensive": false,
           "language": "en-US",
+          "locations": [],
           "name": "🐸 JFrog SAST",
+          "notifications": [],
+          "rules": [],
+          "supportedTaxonomies": [],
+          "taxa": [],
           "version": "1.23.3"
-        }
-      }
+        },
+        "extensions": []
+      },
+      "translations": [],
+      "versionControlProvenance": [],
+      "webRequests": [],
+      "webResponses": []
     }
   ],
   "properties": {}
